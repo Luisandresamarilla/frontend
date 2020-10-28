@@ -1,0 +1,52 @@
+body {background-color: yellow;}
+
+header { background-color: red;
+margin: 1%;
+}
+
+nav {background-color: green;
+     clear: both;
+     margin-top: 10px;
+}
+
+section {background-color: blue;}
+
+aside { background-color: grey;}
+
+footer {background-color: brown;}
+
+nav ul li { display: inline-block;
+padding: 10px;
+
+
+}
+section { width: 48%;
+float: left;
+margin: 1%;
+padding: 10px;
+border: 10px dotted black;
+box-sizing: border-box;
+height: 300px;
+overflow: auto;
+}
+
+aside {width: 48%;
+float: left;
+margin: 1%;
+padding: 10px;
+border: 10px solid black;
+box-sizing: border-box;
+height: 300px;
+overflow: auto;
+}
+
+footer { clear: both;
+padding: 10px;
+text-align: center;
+}
+
+header {float: left;}
+
+
+header img {float: left;
+            height:30vh;}
